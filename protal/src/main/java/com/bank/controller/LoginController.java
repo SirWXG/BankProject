@@ -27,7 +27,6 @@ public class LoginController {
     public String doLogin(@RequestParam(name = "username")String username,
                           @RequestParam(name="password")String password) throws UnsupportedEncodingException {
         username = new String(username.getBytes("iso-8859-1"),"utf-8");
-        Msg msg = new Msg();
         Map<String,Object> map = new HashMap<>();
         map.put("empName",username);
         map.put("empPassword",password);

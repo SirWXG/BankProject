@@ -16,15 +16,15 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="bankManager" target="1.8" />
-      <module name="content" target="1.8" />
-      <module name="content-interface" target="1.8" />
+      <module name="bankManager" target="1.5" />
+      <module name="content" target="1.5" />
+      <module name="content-interface" target="1.5" />
       <module name="content-service" target="1.8" />
-      <module name="mapper" target="1.8" />
-      <module name="mybatis" target="1.8" />
-      <module name="pojo" target="1.8" />
-      <module name="protal" target="1.8" />
-      <module name="utils" target="1.8" />
+      <module name="mapper" target="1.5" />
+      <module name="mybatis" target="1.5" />
+      <module name="pojo" target="1.5" />
+      <module name="protal" target="1.7" />
+      <module name="utils" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

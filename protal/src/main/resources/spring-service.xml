@@ -14,7 +14,7 @@
 	<!--引用dubbo服务-->
 	<dubbo:application name="dubbo-portal"/>
 
-	<dubbo:registry protocol="zookeeper" address="zookeeper://120.79.32.91:2181"/>
+	<dubbo:registry protocol="zookeeper" address="zookeeper://192.168.0.105:2181"/>
 
 
 	<!--从dubbo中引用原来有rest提供的服务，交由sprin管理   -->

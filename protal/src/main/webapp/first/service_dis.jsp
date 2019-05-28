@@ -164,6 +164,14 @@
 
                 //监听提交
                 form.on('submit(demo1)', function(data){
+                    var sp = $("input[name='servicePhone']").val();
+                    alert(sp);
+                    var reg = /^1[0-9]{10}$/;
+                    if(!reg.test(sp)){
+                        layer.alert("手机号码输入有误,请重新输入!",{
+                            title:'错误信息'
+                        })
+                    }
                     $.ajax({
                         url:'/serviceCommit/addService',
                         type:"post",

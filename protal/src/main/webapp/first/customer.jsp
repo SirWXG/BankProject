@@ -91,7 +91,7 @@
         </div>
         <div class="container">
             <div class="row" style="background-color: white; height: 70px;">
-                <div class="col-md-2" style="line-height: 60px;" ><font size="5">中国建设银行</font></div>
+                <div class="col-md-2" style="line-height: 60px;" ><font size="5">中国Tina银行</font></div>
                 <div class="col-md-1" style="line-height: 60px;" ><a href="#">信用卡</a></div>
                 <div class="col-md-1" style="line-height: 60px;" ><a href="#">投资理财</a></div>
                 <div class="col-md-2" style="line-height: 60px;" ><a href="#">存贷及银行卡</a></div>
